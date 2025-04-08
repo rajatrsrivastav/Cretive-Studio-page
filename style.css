@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main {
+  height: auto;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.main .nav {
+  width: 100%;
+}
+.main .hero {
+  width: 100%;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.main .hero .top {
+  width: 100%;
+}
+.main .hero .top p {
+  font-size: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.7rem;
+  margin-top: 1rem;
+}
+.main .hero .top h1 {
+  font-size: 4em;
+  font-weight: 400;
+  width: 70%;
+}
+.main .hero .below {
+  width: 100%;
+}
+.main .hero .below img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.main .hero-sec {
+  width: 100%;
+  padding-left: 1.2rem;
+  padding-right: 1.3rem;
+}
+.main .hero-sec .values-top {
+  width: 100%;
+}
+.main .hero-sec .values-top p {
+  font-size: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.5rem;
+  margin-top: 1rem;
+}
+.main .hero-sec .values-top h1 {
+  font-size: 3.2em;
+  font-weight: 400;
+}
+.main .hero-sec .values-top button {
+  background-color: black;
+  color: white;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: monospace;
+  font-weight: 100;
+}
+.main .hero-sec .hr {
+  display: none;
+}
+.main .hero-sec .val-below {
+  width: 100%;
+}
+.main .hero-sec .val-below .Vision {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.main .hero-sec .val-below .Vision img {
+  width: 13%;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .hero-sec .val-below .Vision h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.main .hero-sec .val-below .Vision p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.main .hero-sec .val-below hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.main .fir {
+  display: none;
+}
+.main .team {
+  margin-top: 1rem;
+  width: 100%;
+  padding-left: 1.2rem;
+  padding-right: 1.3rem;
+}
+.main .team .text {
+  width: 100%;
+}
+.main .team .text h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 10%;
+  margin-bottom: 1rem;
+}
+.main .team .text p {
+  font-size: 1.3em;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.main .team hr {
+  margin-bottom: 2rem;
+}
+.main .team .vertical {
+  width: 100%;
+}
+.main .team .vertical .vid video {
+  width: 10%;
+}
+.main .team .vertical .vid h1 {
+  font-size: 1.6em;
+  font-weight: 300;
+  margin: 0.8rem 0 1rem 0.8rem;
+}
+.main .team .vertical .vid p {
+  font-size: 0.8em;
+  font-weight: 200;
+  margin: 0.5rem 0 1rem 0.8rem;
+  text-transform: uppercase;
+}
+.main .footer {
+  width: 100%;
+  height: auto;
+  padding-left: 1.2rem;
+  padding-right: 1.3rem;
+}
+.main .footer .top {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.main .footer .top img {
+  width: 17%;
+  margin: 1rem 0rem 1rem 0.5rem;
+}
+.main .footer .top p {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 300;
+}
+.main .footer .top h1 {
+  margin-top: 1rem;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.main .footer .top .imgg {
+  display: none;
+}
+.main .footer .hr {
+  display: none;
+}
+.main .footer .down {
+  width: 100%;
+  margin-top: 1rem;
+}
+.main .footer .down p {
+  width: 100%;
+  font-size: 1.1em;
+  word-spacing: 0.5em;
+  line-height: 1.4;
+  font-weight: 300;
+  margin-left: 0.5rem;
+}
+.main .footer .down button {
+  background-color: black;
+  color: white;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-family: monospace;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1000px) {
+  .body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .main {
+    height: auto;
+  }
+  .main .hero {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .main .hero .top p {
+    font-size: 1em;
+    margin-bottom: 0rem;
+    margin-top: 3rem;
+  }
+  .main .hero .top h1 {
+    width: 50%;
+    word-spacing: 0;
+    font-size: 6.5em;
+  }
+  .main .hero-sec {
+    display: flex;
+  }
+  .main .hero-sec .values-top {
+    padding-left: 2rem;
+  }
+  .main .hero-sec .values-top button {
+    margin-top: 55%;
+  }
+  .main .hero-sec .values-top h1 {
+    font-size: 4em;
+  }
+  .main .hero-sec .hr {
+    display: block;
+    width: 0.1rem;
+    background-color: black;
+    height: 40rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+  }
+  .main .hero-sec .val-below .first {
+    display: none;
+  }
+  .main .hero-sec .val-below .Vision {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .main .hero-sec .val-below .Vision img {
+    width: 8%;
+    margin-bottom: 0.5rem;
+  }
+  .main .hero-sec .val-below .Vision h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2em;
+    font-weight: 300;
+  }
+  .main .hero-sec .val-below .Vision p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1em;
+  }
+  .main .hero-sec .val-below .stline {
+    display: none;
+  }
+  .main hr {
+    margin-top: 1rem;
+    width: 95%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+  }
+  .main .team {
+    display: flex;
+    padding-left: 2rem;
+    padding: 2rem;
+  }
+  .main .team .hr {
+    display: block;
+    width: 0.19rem;
+    background-color: black;
+    height: 40rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+  .main .team .text {
+    position: sticky;
+    width: 49%;
+    padding: 1rem;
+    height: auto;
+  }
+  .main .team .text h1 {
+    font-size: 3.5em;
+  }
+  .main .team .text p {
+    word-spacing: 0.4em;
+    width: 90%;
+    line-height: 1.5;
+  }
+  .main .team .text hr {
+    display: none;
+  }
+  .main .team .hrr {
+    margin-right: 1rem;
+    display: block;
+    width: 0.1rem;
+    background-color: black;
+    height: 50rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+  .main .team .vertical {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-left: 1rem;
+  }
+  .main .team .vertical .vid {
+    width: 95%;
+    height: 70%;
+    overflow: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .main .linee {
+    display: block;
+    width: 95%;
+    padding-right: 10rem;
+  }
+  .main .footer {
+    display: flex;
+    margin-left: 2rem;
+    margin-bottom: 0;
+  }
+  .main .footer .top {
+    height: 11rem;
+  }
+  .main .footer .top h1 {
+    font-size: 5em;
+    width: 90%;
+  }
+  .main .footer .top img {
+    display: none;
+  }
+  .main .footer .top .imgg {
+    margin-top: 18rem;
+    display: block;
+    width: 8%;
+    margin-bottom: 0.5rem;
+  }
+  .main .footer .hr {
+    display: block;
+    width: 0.1rem;
+    background-color: black;
+    height: 40rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+  .main .footer .down {
+    height: auto;
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .main .footer .down p {
+    width: 70%;
+    font-size: 1.5em;
+    margin-bottom: 22rem;
+  }
+}/*# sourceMappingURL=style.css.map */
