@@ -87,7 +87,9 @@ body {
   display: none;
 }
 .main .hero-sec .val-below {
-  width: 100%;
+  width: 60%;
+  padding-right: 5%;
+  margin-bottom: 0;
 }
 .main .hero-sec .val-below .Vision {
   width: 100%;
